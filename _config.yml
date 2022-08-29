@@ -1,0 +1,6 @@
+exclude:
+  - excluded
+
+include:
+  - excluded/included  # Doesn't work, but the following works
+# - excluded/included/this-file-should-be-included
